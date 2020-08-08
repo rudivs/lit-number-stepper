@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "name": "lit-number-stepper",
+      "description": "A lit-elements Web Component providing a counter with icon buttons to increment and decrement the counter value.",
+      "properties": [
+        {
+          "name": "counter",
+          "type": "Number",
+          "description": "A counter value",
+          "default": 0
+        },
+        {
+          "name": "minimum",
+          "type": "Number",
+          "description": "Minimum allowed number for counter",
+          "default": 0
+        },
+        {
+          "name": "maximum",
+          "type": "Number",
+          "description": "Maximum allowed number for counter",
+          "default": null
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--lit-number-stepper-text-color",
+          "description": "Counter Text Color",
+          "type": "Color"
+        },
+        {
+          "name": "--lit-number-stepper-icon-color",
+          "description": "Icon Text Color",
+          "type": "Color"
+        },
+        {
+          "name": "--lit-number-stepper-icon-size",
+          "description": "Size of Increment and Decrement Buttons",
+          "type": "Size"
+        },
+        {
+          "name": "--lit-number-stepper-font-size",
+          "description": "Size of Counter Text",
+          "type": "Size"
+        },
+        {
+          "name": "--lit-number-stepper-font-family",
+          "description": "Font for Counter Text",
+          "type": "Font"
+        }
+      ]
+    }
+  ]
+}
