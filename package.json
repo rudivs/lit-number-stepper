@@ -3,7 +3,11 @@
   "name": "lit-number-stepper",
   "version": "1.0.0",
   "description": "LitElement Web Component lit-number-stepper providing a number counter with icon buttons to increment and decrement the counter value, following open-wc recommendations",
-  "author": "lit-number-stepper",
+  "author": "Rudi von Staden",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rudivs/lit-number-stepper.git"
+  },
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
