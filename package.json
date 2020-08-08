@@ -1,8 +1,9 @@
 {
-  "name": "el-number-stepper",
+  "type": "module",
+  "name": "lit-number-stepper",
   "version": "0.0.0",
-  "description": "Webcomponent el-number-stepper following open-wc recommendations",
-  "author": "el-number-stepper",
+  "description": "LitElement Web Component lit-number-stepper providing a number counter with icon buttons to increment and decrement the counter value, following open-wc recommendations",
+  "author": "lit-number-stepper",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",

@@ -1,6 +1,6 @@
 # \<lit-number-stepper>
 
-A LitElement Web Component providing a number counter with icon buttons to increment and decrement the counter value. This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+A LitElement Web Component providing a number counter with icon buttons to increment and decrement the counter value. This Web Component follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
 ## Installation
 ```bash

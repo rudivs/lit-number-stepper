@@ -1,4 +1,4 @@
-  {
+{
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
@@ -13,7 +13,9 @@
     "outDir": "dist",
     "sourceMap": true,
     "inlineSources": true,
-    "rootDir": "./"
+    "rootDir": "./",
+    "noEmit": false,
+    "declaration": true
   },
   "include": ["**/*.ts"]
 }
