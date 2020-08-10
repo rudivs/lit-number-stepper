@@ -47,12 +47,14 @@ export class LitNumberStepper extends LitElement {
   __increment() {
     if (this.counter !== this.maximum) {
       this.counter += 1;
+      this.dispatchEvent(new Event('change'));
     }
   }
 
   __decrement() {
     if (this.counter !== this.minimum) {
       this.counter -= 1;
+      this.dispatchEvent(new Event('change'));
     }
   }
 
